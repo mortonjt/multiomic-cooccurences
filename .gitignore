@@ -3,6 +3,7 @@ checkpoint
 events.out*
 *.qza
 *.qzv
+ipynb/.ipynb_checkpoints/
 
 *~
 \#*#
