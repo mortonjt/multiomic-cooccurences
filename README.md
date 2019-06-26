@@ -25,17 +25,17 @@ The notebooks for producing the figures in the manuscript.  They are given as fo
 There are also auxiliary notebooks on how to extract parameters from a model checkpoint.
 This is useful for real time diagnostics and debugging.
 
-- ipynb/recover-CF-parameters.ipynb
-- ipynb/biplot-coordinates.ipynb
+ - ipynb/recover-CF-parameters.ipynb
+ - ipynb/biplot-coordinates.ipynb
 
 # Results
 This folder contains the checkpoints and diagnostics generated from the command provided in the scripts folder.
 
-benchmark_output : simulation dataset used for the roc-curve analysis on mmvec, SPIEC-EASI, SparCC, proportionality,  pearson and spearman
-soil_output      : results from the biocrust case study
-cf_output        : results from the cystic fibrosis case study
-hfd_output       : results from the high fat diet case study
-ihmp_output      : results from the IBD case study
+- benchmark_output : simulation dataset used for the roc-curve analysis on mmvec, SPIEC-EASI, SparCC, proportionality,  pearson and spearman
+- soil_output      : results from the biocrust case study
+- cf_output        : results from the cystic fibrosis case study
+- hfd_output       : results from the high fat diet case study
+- ihmp_output      : results from the IBD case study
 
 # Data files
 All the data required to reproduce the analysis can be found under `data/`.
